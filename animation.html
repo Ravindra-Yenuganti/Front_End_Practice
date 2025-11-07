@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animation</title>
+</head>
+<style>
+    .container{
+        height: 645px;
+        width: 100%;
+        background-color: aqua;
+        border: 1px solid black;
+    }
+    .box1{
+        height: 50px;
+        width: 250px;
+        margin: 20px 10px;
+        background-color: bisque;
+        border-radius: 70px;
+        position: relative;
+        animation-name: top;
+        animation-delay: 1ms;
+        animation-duration: 5s;
+        animation-iteration-count: infinite;
+        animation-timing-function:linear;
+        /* animation-fill-mode: forwards; */
+        /* animation-play-state: running; */
+        animation-direction:alternate;
+        
+    }
+    @keyframes top {
+        from{
+            top: 0px;
+            left: 0px;
+        }
+        to{
+            top: 0px;
+            left: 1000px;
+        }
+        
+    }
+     .box2{
+        height: 50px;
+        width: 250px;
+        margin: 20px 10px;
+        background-color: bisque;
+        border-radius: 70px;
+        position: relative;
+        animation-name: down;
+        animation-delay: 1ms;
+        animation-duration: 5s;
+        animation-iteration-count: infinite;
+        animation-timing-function: linear;
+        /* animation-fill-mode:backwards; */
+        /* animation-play-state:running; */
+        animation-direction:alternate-reverse;
+        
+        
+    }
+    @keyframes down {
+        from{
+            top: 45%;
+            left: 0px;
+        }
+        to{
+            top: 45%;
+            left: 1000px;
+        }
+        
+    }
+    .ball{
+        height: 50px;
+        width: 50px;
+        border-radius: 30px;
+        background-color: brown;
+        margin-top: 150px;
+        position: relative;
+        animation-name: ball;
+        animation-duration: 10s;
+        animation-iteration-count: infinite;
+        animation-direction: alternate-reverse;
+        animation-timing-function: linear;
+        
+
+    }
+    @keyframes ball {
+        0%{
+            top: 200px;
+            left: 1100px;
+
+        }
+        33%{
+            top: 0px;
+            left: 20px;
+
+        }
+        50%{
+            top: 200px;
+            left: 20px;
+
+        }
+        100%
+        {
+            top: 0px;
+            left: 1100px;
+
+        }
+        
+    }
+
+
+
+
+</style>
+<body>
+    <div class="container">
+        <div class="box1"></div>
+        <div class="ball"></div>
+        <div class="box2"></div>
+    </div>
+    
+    
+</body>
+</html>
