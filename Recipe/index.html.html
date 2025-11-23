@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recipeproject</title>
+    <style>
+        #details{
+            height: 50px;
+            width: 100%;
+            background-color: aquamarine;
+            border: 1px solid black;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+            align-self: flex-start;
+
+
+
+        }
+        .top{
+            /* display: inline; */
+
+        }
+        #ri{
+           
+        }
+        #home{
+            /* margin-left: 200px; */
+        }
+        #login{
+            /* margin-left: 200px; */
+        }
+        .main{
+            height: 600px;
+            width: 100%;
+            /* background-color: antiquewhite; */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+        }
+        #sheet{
+            height: 600px;
+            width: 450px;
+            /* background-color:darkolivegreen; */
+            /* box-shadow:  4px black; */
+            box-shadow: 0 0 5px black;
+
+        }
+        .gulab{
+            height: 300px;
+            /* background-color: aqua; */
+            margin: 5px;
+            display: flex;
+            flex-direction: row;
+        }
+        #gulabimage{
+            display: inline;
+            margin-top: 15px;
+            box-shadow: 0 0 10px black;
+            background-color: blue;
+            height: 75%;
+
+        }
+        #gulabingre{
+            /* box-shadow: 0 0 5px black; */
+        }
+        #mysorePak{
+            display: flex;
+            margin: 5px;
+        }
+        #mysoreimg{
+            height: 225px;
+            /* width: 100px; */
+            margin-top: 15px;
+            box-shadow: 0 0 10px black;
+        }
+        .pic{
+            /* transition-property: all; */
+        }
+        .pic:hover{
+            transition-property: all;
+            transition-duration: 3s;
+            transform-style: flat;
+            /* height: 500px;
+            width: 500px; */
+            transform:scale(1.1);
+
+        }
+        /* image{
+            height: 100px;
+            width: 100px;
+        } */
+
+        
+    </style>
+</head>
+<body>
+    <div id="details">
+        <h1 class="top" id="ri">Recipe Items</h1>
+        <a href="" class="top" id="home">Home</a>
+        <a href="" class="top" id="login">login</a>
+
+    </div>
+    <div class="main">
+        <div id="sheet">
+            <div class="gulab">
+                <div id="gulabingre">
+                    <ol>
+                        <li><h1>Ingredients</h1></li>
+                    </ol>
+                    <ul>
+                        <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. </li>
+                        <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam, voluptatibus?</li>
+                        <li>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</li>
+                    </ul>
+                </div>
+                <div id="gulabimage" class="pic">
+                    <img src="Gulab_jamm.jpg" alt="Gulab_jamm" >
+
+                </div>
+                
+            </div>
+            <section id="mysorePak">
+                <div id="mysoreingre">
+                    <ol>
+                        <li><h1>Ingredients</h1></li>
+                    </ol>
+                    <ul>
+                        <li>Lorem ipsum dolor sit Lorem ipsum dolor sit amet.</li>
+                        <li>Lorem ipsum dolor sit Lorem ipsum dolor sit amet.</li>
+                        <li>Lorem ipsum dolor sit Lorem ipsum dolor sit amet.</li>
+                    </ul>
+                </div>
+                <div id="mysoreimg" class="pic"><img src="Mysore_pak.jpg" alt="Mysore_Pak" ></div>
+            </section>
+            
+                
+            </div>
+        </div>
+    </div>
+    
+</body>
+</html>
