@@ -2,3 +2,5 @@
 https://ravindra-yenuganti.github.io/Front_End_Practice/Animation/
 
 https://ravindra-yenuganti.github.io/Front_End_Practice/Multi_Media/
+
+https://ravindra-yenuganti.github.io/Front_End_Practice/Recipe/
